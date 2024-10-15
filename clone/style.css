@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.section-first{
+    background-image: url("Design tools for a website creation platform1.webp");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-Second{
+    background-image: url("Page\ Over2.webp");
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+    padding-left: 200px;
+}
+
+.section-Second .section-third .section-forth>h1{
+    font-size: 100px;
+    gap: 2px;
+}
+
+
+button{
+    height: 5vh;
+    width: 8%;
+    border-radius: 20px;
+    background-color: rgb(19, 117, 237);
+    border: none;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(116, 175, 248);;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.section-third{
+    background-image: url("Page\ Over3.webp");
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+    gap: 20px;
+    padding-right: 200px;
+    box-sizing: border-box;
+}
+
+.section-forth{
+    background-image: url("Page\ Over4.webp");
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 200px;
+    gap: 20px;
+}
+
+.section-fifth{
+    background-image: url("Page\ Over5.webp");
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.section-fifth>h1{
+    font-size: 50px;
+    gap: 5px;
+}
+
+
+ footer{
+    height: 20vh;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    word-spacing: 4px;
+}
+
+.line{
+    border: 2px solid rgb(176, 176, 176);
+}
+
+.yes{
+    display: flex;
+    gap: 10px;
+}
+
+footer>a{
+    color: black;
+}
+
+.section-div{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+    width: 40%;
+    border: 2px solid white;
+    box-sizing: border-box;
+  }
+  
+  .section-div-content{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60vh;
+    width: 95%;
+    border: 2px solid white;
+    gap: 60px;
+    box-sizing: border-box;
+    flex-direction: column;
+  
+  }
+  
+  .heading>h1{
+      font-size: 40px;
+  }
+  
+  .input-button{
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      width: 90%;
+  }
+  
+  .input-button>button{
+    white-space: nowrap; /* Prevents text from wrapping to the next line */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 90px;
+    border-radius: 20px;
+    background-color: rgb(60, 91, 216);
+    border: none;
+    box-sizing: border-box;
+    color: white; /* Ensure text color is set */
+    
+  }
+  
+  .input-button>input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(54, 165, 210);
+    flex: 2;
+    padding: 10px;
+    box-shadow: none;
+    outline: none;
+    color: white; /* Ensure input text color is visible */
+  }
+  
+  .input-button>button>i{
+    margin-left: 6px;
+  }
+
+  .pera p {
+    color: black; /* Ensure paragraph text is visible */
+  }
